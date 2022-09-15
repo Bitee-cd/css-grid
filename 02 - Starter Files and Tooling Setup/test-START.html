@@ -7,12 +7,29 @@
   <link rel="stylesheet" href="../assets/style.css">
   <title>Starter Files and Tooling Setup!</title>
 </head>
-
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div>
+  <div class="item">8</div>
+  <div class="item">9</div>
+  <div class="item">10</div>
+</div>
 <style>
   p {
     font-size: 50px;
     border-bottom: 10px solid var(--yellow);
     color: var(--black);
+  }
+  .container{
+    display:grid;
+    grid-template-rows:100px 200px 250px;
+    grid-template-columns:100px auto 150px;
+    grid-gap:20px;
   }
 </style>
 
